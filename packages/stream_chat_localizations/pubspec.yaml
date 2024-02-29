@@ -18,7 +18,7 @@ dependencies:
     git:
       url: https://github.com/pgahq/stream-chat-flutter.git
       path: packages/stream_chat_flutter
-      ref: thread_answer_fix_v6.11.0
+      ref: thread_answer_and_padding_fix_v6.11.0
 
 dev_dependencies:
   flutter_test:
