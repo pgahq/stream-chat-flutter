@@ -44,7 +44,7 @@ dependencies:
     git:
       url: https://github.com/pgahq/stream-chat-flutter.git
       path: packages/stream_chat_flutter_core
-      ref: android_compatibility
+      ref: android_compatibility_beta.3
   synchronized: ^3.1.0
   thumblr: ^0.0.4
   url_launcher: ^6.1.12
