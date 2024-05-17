@@ -1,3 +1,24 @@
+## 8.0.0-beta.3
+
+- Aligned version with other Stream Chat packages
+  
+## 8.0.0-beta.2
+
+- Aligned version with other Stream Chat packages
+
+## 8.0.0-beta.1
+
+- Updated minimum supported `SDK` version to Flutter 3.16/Dart 3.2
+  
+## 7.2.0-hotfix.1
+
+ - Version to keep in sync with the rest of the packages
+  
+## 7.2.0
+
+✅ Added
+- Added `markUnread` method to `Channel` that marks messages from the provided message id onwards as unread
+
 ## 7.1.0
 
 🐞 Fixed

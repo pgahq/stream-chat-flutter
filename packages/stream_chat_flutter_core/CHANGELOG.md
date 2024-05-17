@@ -1,3 +1,25 @@
+## 8.0.0-beta.3
+
+- 🛑 **BREAKING** Updated `connectivity_plus` library to `>= 6.0.0`.
+- Updated `stream_chat` dependency to [`8.0.0-beta.3`](https://pub.dev/packages/stream_chat/changelog).
+
+## 8.0.0-beta.2
+
+- Updated `stream_chat` dependency to [`8.0.0-beta.2`](https://pub.dev/packages/stream_chat/changelog).
+
+## 8.0.0-beta.1
+
+- Updated minimum supported `SDK` version to Flutter 3.16/Dart 3.2
+  
+## 7.2.0-hotfix.1
+
+  - Updated `stream_chat` dependency to [`7.2.0-hotfix.1`](https://pub.dev/packages/stream_chat/changelog).
+  - Reverted the `connectivity_plus` dependency bump causing [1889](https://github.com/GetStream/stream-chat-flutter/issues/1889)
+
+## 7.2.0
+
+- Updated `stream_chat` dependency to [`7.2.0`](https://pub.dev/packages/stream_chat/changelog).
+
 ## 7.1.0
 
 - Updated `stream_chat` dependency to [`7.1.0`](https://pub.dev/packages/stream_chat/changelog).
