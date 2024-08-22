@@ -127,8 +127,7 @@ class StreamChatCoreState extends State<StreamChatCore>
       connectivityStream ??= Connectivity().onConnectivityChanged;
       _connectivitySubscription =
           connectivityStream.distinct().listen((result) {
-        _isConnectionAvailable = result.length > 1 ||
-            (result.length == 1 && result.first != ConnectivityResult.none);
+        _isConnectionAvailable = !result.contains(ConnectivityResult.none);
         if (!_isInForeground) return;
         if (_isConnectionAvailable) {
           if (client.wsConnectionStatus == ConnectionStatus.disconnected &&
@@ -196,6 +195,7 @@ class StreamChatCoreState extends State<StreamChatCore>
       return;
     }
 
+    _eventSubscription?.cancel();
     _eventSubscription = client.on().listen(widget.onBackgroundEventReceived);
 
     void onTimerComplete() {
@@ -203,6 +203,7 @@ class StreamChatCoreState extends State<StreamChatCore>
       client.closeConnection();
     }
 
+    _disconnectTimer?.cancel();
     _disconnectTimer = Timer(widget.backgroundKeepAlive, onTimerComplete);
     return;
   }

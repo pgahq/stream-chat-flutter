@@ -1,23 +1,49 @@
-## 8.0.0-beta.3
+## 8.0.0
 
 🐞 Fixed
-- Migrate to Material 3 and remove `useMaterial3` flag interception.
+
+- Fixed null errors in web from markdown.
+- Fixed bug causing background events to be sent in foreground.
+
+## 7.3.0 
+
+🐞 Fixed
+
+- Fixed copy message function. 
 
 🔄 Changed
-- Updated `stream_chat_flutter_core` dependency to [`8.0.0-beta.3`](https://pub.dev/packages/stream_chat_flutter_core/changelog).
 
-🛑️ Breaking
-- Updated `connectivity_plus` library to `>= 6.0.0`.
-  
-## 8.0.0-beta.2
+- Changed minimum Flutter version to 3.19 for the SDK.
+- Updated `stream_chat_flutter_core` dependency to [`7.3.0`](https://pub.dev/packages/stream_chat/changelog).
 
-- Bump `photo_manager` dependency to `^3.0.0-dev.5`.
-- Updated `stream_chat_flutter_core` dependency to [`8.0.0-beta.2`](https://pub.dev/packages/stream_chat_flutter_core/changelog).
+## 7.2.2
 
-## 8.0.0-beta.1
+✅ Added
 
-- Updated minimum supported `SDK` version to Flutter 3.16/Dart 3.2
-- Bump `photo_manager` dependency to `^3.0.0-dev.4`.
+- Added `customAttachmentBuilders` parameter for `StreamAttachmentWidgetBuilder.defaultBuilders`.
+- `attachmentBuilders` parameter for `StreamMessageWidget` now only expects custom builders.
+- Added `StreamMediaAttachmentBuilder` widget to show media attachments in a message.
+
+🐞 Fixed
+
+- Added export for `message_widget_content_components.dart` to allow for easier customization of message content components.
+- Fixed error when channel image is not set.
+- Fixes reaction picker tail showing up unexpectedly.
+- Copying a message now replaces the User IDs with user names.
+- Exported thumbnail widgets from the package.
+- Extends predicates for sending and clearing messages to mobile.
+
+🔄 Changed
+
+- Updated `stream_chat_flutter_core` dependency to [`7.2.2`](https://pub.dev/packages/stream_chat/changelog).
+
+## 7.2.1
+
+✅ Added
+- Added `VoiceRecordingAttachmentBuilder`, for displaying voice recording attachments in the chat.
+
+🐞 Fixed
+- Fixed wrong calculation of the last unread message indicator.
 
 ## 7.2.0-hotfix.1
 
@@ -58,7 +84,6 @@ Added Mark as Unread option to `StreamMessageWidget` context menu that will show
 🐞 Fixed
 - Removed double focus on `StreamMessageInput` when `focusNode` is provided for web and desktop.
 - Optionally call `onThreadTap` in `BottomRow` to avoid `Null check operator used on a null value`
-
 
 ## 7.0.1
 

@@ -234,8 +234,7 @@ class MediaThumbnailProvider extends ImageProvider<MediaThumbnailProvider> {
   }
 
   @override
-  //ignore: non_nullable_equals_parameter
-  bool operator ==(dynamic other) {
+  bool operator ==(Object other) {
     if (other is MediaThumbnailProvider) {
       return media == other.media &&
           size == other.size &&

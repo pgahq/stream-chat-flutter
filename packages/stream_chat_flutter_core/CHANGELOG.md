@@ -1,16 +1,28 @@
-## 8.0.0-beta.3
+## 8.0.0 
 
-- 🛑 **BREAKING** Updated `connectivity_plus` library to `>= 6.0.0`.
-- Updated `stream_chat` dependency to [`8.0.0-beta.3`](https://pub.dev/packages/stream_chat/changelog).
+🐞 Fixed
 
-## 8.0.0-beta.2
+- Fixed bug causing background events to be sent in foreground.
 
-- Updated `stream_chat` dependency to [`8.0.0-beta.2`](https://pub.dev/packages/stream_chat/changelog).
+🔄 Changed
 
-## 8.0.0-beta.1
+- Updated `stream_chat` dependency to [`8.0.0`](https://pub.dev/packages/stream_chat/changelog).
 
-- Updated minimum supported `SDK` version to Flutter 3.16/Dart 3.2
-  
+## 7.3.0
+
+🔄 Changed
+
+- Changed minimum Flutter version to 3.19 for the SDK. 
+- Updated `stream_chat` dependency to [`7.3.0`](https://pub.dev/packages/stream_chat/changelog).
+
+## 7.2.2
+
+- Updated `stream_chat` dependency to [`7.2.2`](https://pub.dev/packages/stream_chat/changelog).
+
+## 7.2.1
+
+  - Updated `stream_chat` dependency to [`7.2.1`](https://pub.dev/packages/stream_chat/changelog).
+
 ## 7.2.0-hotfix.1
 
   - Updated `stream_chat` dependency to [`7.2.0-hotfix.1`](https://pub.dev/packages/stream_chat/changelog).

@@ -80,3 +80,5 @@ class MockConnectivityPlatform extends ConnectivityPlatform {
     return Stream.value([ConnectivityResult.wifi]);
   }
 }
+
+class MocMessage extends Mock implements Message {}

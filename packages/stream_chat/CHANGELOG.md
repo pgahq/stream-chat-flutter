@@ -1,15 +1,24 @@
-## 8.0.0-beta.3
+## 8.0.0
 
-- Aligned version with other Stream Chat packages
-  
-## 8.0.0-beta.2
+🐞 Fixed
 
-- Aligned version with other Stream Chat packages
+- Fixed incorrect user object and online presence when user is updated.
 
-## 8.0.0-beta.1
+## 7.3.0
 
-- Updated minimum supported `SDK` version to Flutter 3.16/Dart 3.2
-  
+🔄 Changed
+
+- Changed minimum Flutter version to 3.19 for the SDK.
+
+## 7.2.2
+
+- Version to keep in sync with the rest of the packages
+
+## 7.2.1
+
+✅ Added
+- Added `voiceRecording` attachment type
+
 ## 7.2.0-hotfix.1
 
  - Version to keep in sync with the rest of the packages
