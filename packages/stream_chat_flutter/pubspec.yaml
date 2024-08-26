@@ -41,7 +41,11 @@ dependencies:
   rxdart: ^0.27.7
   share_plus: ^10.0.0
   shimmer: ^3.0.0
-  stream_chat_flutter_core: ^8.0.0
+  stream_chat_flutter_core:
+    git:
+      url: https://github.com/pgahq/stream-chat-flutter.git
+      path: packages/stream_chat_flutter_core
+      ref: android_compatibility_8.0.0
   synchronized: ^3.1.0+1
   thumblr: ^0.0.4
   url_launcher: ^6.3.0
